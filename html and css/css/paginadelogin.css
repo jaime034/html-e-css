@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: darkblue;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sessao {
+    height: 60vh;
+    width: 30%;
+    background-color: white;
+    padding: 5rem;
+    border-radius: 15px;
+}
+.filho {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.filho h1 {
+    margin-bottom: 16px;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.formulario input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: solid 1px;
+}
+.formulario button {
+    padding: 10px;
+    background-color: rgb(16, 207, 16);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    border: solid 1px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.formulario button:hover {
+    background-color: rgb(3, 111, 3);
+}
+.formulario p {
+    display: flex;
+    justify-content: center;
+}
